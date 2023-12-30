@@ -26,15 +26,7 @@ void loop() {
   // Use fabs() for absolute value of floating-point numbers
   float absCalibratedPH = fabs(calibratedPH);
   
-  if (absCalibratedPH > 14 && absCalibratedPH <= 100) {
-    calibratedPH /= 10;
-  } else if (absCalibratedPH > 100 && absCalibratedPH <= 1000) {
-    calibratedPH /= 100;
-  } else if (absCalibratedPH > 1000 && absCalibratedPH <= 10000) {
-    calibratedPH /= 1000;
-  } else if (absCalibratedPH > 10000) {
-    calibratedPH /= 10000;
-  }
+ 
   
   Serial.println(abs(calibratedPH));
 
