@@ -2,7 +2,7 @@
 
 								
 
-This project focuses on optimizing crop yield by monitoring soil fertility continuously,Automating the irrigation schedules,disease detection in turmeric leaves using machine learning model YOLO V5.
+This project focuses on optimizing crop yield by monitoring soil fertility continuously,Automating the irrigation schedules,disease detection in turmeric leaves using machine learning model YOLO V5.we have integrated arduino uno whhich is used to read sensor values and then transmit to esp8266 for thingspeak visulaizations in tandem to meet our aim of making the prototype cheap and efficient.
 The project is divided into three parts:
 ## Automating irrigation schedules:
 considers the parameters like Soil Moisture,Temperature ,Humidity from sensors namely LM35,DHT11 and based on correlation of these values irrigation schedules are optimized using solenoid valve to operate the water flow.These values can be viewed in thingspeak channel too.
