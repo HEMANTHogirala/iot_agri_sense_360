@@ -13,3 +13,4 @@ There are two leaf diseases in turmeric namely blotch and spot.These disease sam
 The allround project comprising three parts alerts stakeholders to make decisions wisely in foresight and make decisions accordingly thereby contributing to optimize crop yield.As we have done this in a lab environment considering single plant ,we have used turmeric plant for testing purposes.
 1. Note: Thingspeak channel: https://thingspeak.com/channels/2339007/private_show
 2. Note: Architecture and results are available in paper presented at conference yet to be published.So,Incase of queries drop mail at ogiralanagasaihemanth@gmail.com
+published paper at ieee:https://ieeexplore.ieee.org/abstract/document/10580260
